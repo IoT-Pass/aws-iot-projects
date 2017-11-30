@@ -1,0 +1,23 @@
+{
+  "name": "trucksimulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.1.0",
+    "aws-sdk": "^2.150.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  }
+}
