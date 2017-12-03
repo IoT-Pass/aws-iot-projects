@@ -3,13 +3,18 @@
 Projects using AWS Services including AWS IoT (Internet of Things),
 Amazon Kinesis, and so on
 
-## SMART HOME SECURITY AND AUTOMATION
+## HomeSecure - A SMART HOME SECURITY AND AUTOMATION
 
 Smart home and automation is an internet of things solution for users to have
 more control from preventing water leaks to air quality. It brings reliability
 and intelligence to homes using AWS IoT services, applications and sensors.
 Also, provides insurance and voice controlled features using Alexa Voice Services
 and other AI services.
+
+### Architecture
+
+![image alt text](/images/HomeSecure_Arch_1.png)
+
 
 ## AIR QUALITY MONITORING IN SMART CITY USING WIRELESS SENSORS
 
