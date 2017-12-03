@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-#myauth = {'ACCESS_KEY': 'localhost',
-#        'SECRET_KEY': 'root'};
 
 myauth = {
     'ACCESS_KEY': 'AKIAITRXQBR5TYBNFIHQ',
