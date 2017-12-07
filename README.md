@@ -254,7 +254,7 @@ Amazon EC2
 
 ```
 
-## 3.3 Lower Insurance Premium Using ARITY Driving Behavior SDK AND AWS IoT
+## 3.3 Lowering Vehicle Insurance Premium Using ARITY Driving Behavior SDK AND AWS IoT
 
 ### Arity Driving Engine SDK
 
