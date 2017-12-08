@@ -3,66 +3,81 @@
 Projects using Amazon Web Services (AWS) including AWS IoT (Internet of Things),
 Amazon Kinesis, and so on
 
-## HomeSecure and Insurance - Lowering Home Insurance Premium Using SMART HOME IoT SOLUTION
+## Project Introduction: HomeSecure and Homeowner’s Insurance - IoT and SMART HOME SOLUTION for Insurers
 
-Smart home and automation is an internet of things solution for users to have
-more control from preventing water leaks to air quality. It brings reliability
-and intelligence to homes using AWS IoT services, applications and sensors.
-Also, provides insurance and voice controlled features using Alexa Voice Services
-and other AI services.
+HomeSecure for insurers is an internet of things smart home and automation solution for users to have more control from preventing water leaks to air quality. It brings reliability and intelligence to homes using AWS IoT services, applications and sensors. Also, provides insurance and voice controlled features using Alexa Voice Services and other AI services. The IoT solution also insurance companies to better relate with their customers. It provides an opportunity for an insurance company to move from being passive and reacting to losses to helping prevent them.
+
+In the connected home, devices and sensors generate a lot of data that are refined and exploited. This data is particularly important to insurers who have traditionally based their pricing on risk assessment. HomeSecure offers better data on which to base judgements by insurers. HomeSecure would give insurers a more direct relationship with the consumer through daily interaction using touch points in apps and messaging. Insurers also become more competitive by adopting pricing strategies that include direct sourcing and bundling with policies.
+
+By partnering with IoT companies, insurers can leverage technologies such as connected water leakage detectors and temperature sensors to continuously monitor customers’ homes. These technologies provide homeowners with early warning signs and the ability to act quickly in the case of an adverse event, allowing insurers to better mitigate risks and reduce losses for customers.
+
+Reading and hearing about the home security stories of others in the neighborhood can be what is needed to invest in one's home or rental apartment. What's the fun in buying home security gadgets and not building a single one for oneself while utilizing AWS IoT platform, Amazon Kinesis and other services for IoT data management, processing and analytics given a free-tier account and a free credit?
+
+It is very essential to protect one's home against fire, intruders, flood or water leak, and so on. It will bring about self defense and peace of mind and if not prevent or minimize the damage.
+
+
+### Hardware components used:
+
+
+- RedBot Buzzer
+- IC Hook with Pigtail
+- Arduino Uno - R3 SMD
+- Environmental Combo Breakout - CCS811/BME280
+- IC Hook Test Leads
+- Air Quality Breakout - CCS811
+- Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor
+- Adafruit Ultimate GPS Breakout
+- USB 2.0 Cable - A-Male to B-Male
+- Echo Show
+- Resistors, 0 Ohm-1M Ohm
+- JBtek Breadboard Power Supply Module 3.3V/5V For Arduino Board
+- Breadboards
+- Water Sensor
+- PIR Pyroelectric IR Infrared Motion Sensor
+- Bluetooth 4.0 USB Module
+- Digital Buzzer Module
+- Push Button
+- LED
+- Adafruit Bluefruit LE SPI Friend - Bluetooth Low Energy (BLE)
+- Adafruit Bluefruit LE UART Friend - Bluetooth Low Energy (BLE)
+- Raspberry Pi 3
+- Gas Sensor
+
+
+### Software and Cloud Services used:
+
+- AWS IoT Platform
+- Amazon Kinesis Firehose
+- Amazon Redshift for datawarehouse
+- Amazon S3 Object Storage
+- Amazon SNS
+- Amazon SES
+- Lambda
+- Weather API
+- Amazon SNS
+- IFTTT
+- Alexa Voice Service
+- Amazon Dynamo DB
+- Amazon Quicksight for Visualization
+- API Gateway
+- Arduino Sketch
+- Python, C, C++, Node/JS
+
 
 ### Architecture
 
 ![image alt text](/images/HomeSecure_Arch_1.png)
 
-### Hardware components used:
 
-```
-RedBot Buzzer
-IC Hook with Pigtail
-Arduino Uno - R3 SMD
-Environmental Combo Breakout - CCS811/BME280
-IC Hook Test Leads
-Air Quality Breakout - CCS811
-Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor
-Adafruit Ultimate GPS Breakout
-USB 2.0 Cable - A-Male to B-Male
-Echo Show
-Resistors, 0 Ohm-1M Ohm
-JBtek Breadboard Power Supply Module 3.3V/5V For Arduino Board
-Breadboards
-Water Sensor
-PIR Pyroelectric IR Infrared Motion Sensor
-Bluetooth 4.0 USB Module
-Digital Buzzer Module
-Push Button
-LED
-Adafruit Bluefruit LE SPI Friend - Bluetooth Low Energy (BLE)
-Adafruit Bluefruit LE UART Friend - Bluetooth Low Energy (BLE)
-Raspberry Pi 3
-Gas Sensor
-```
+### System Overview
 
-### Software and Cloud Services used:
+We need a Raspberry Pi and Arduino UNO as well as sensors.
 
-```
-AWS IoT Platform
-Amazon Kinesis Firehose
-Amazon Redshift for datawarehouse
-Amazon S3 Object Storage
-Amazon SNS
-Amazon SES
-Lambda
-Weather API
-Amazon SNS
-IFTTT
-Alexa Voice Service
-Amazon Dynamo DB
-Amazon Quicksight for Visualization
-API Gateway
-Arduino Sketch
-Python, C, C++, Node/JS
-```
+
+
+![image alt text](/images/arduino_uno_sensors.png)
+
+![image alt text](/images/rpi_wt_camera.png)
 
 ### JSON PAYLOAD FROM DEVICE TO AWS CLOUD
 
@@ -141,24 +156,22 @@ to parking, monitoring and control of water quality, monitoring of air quality
 is also a key element of a smart city which is also aimed at reducing levels
 of greenhouse gases and combating global warming.
 
-```
-IC Hook with Pigtail
-Arduino Uno - R3 SMD
-Environmental Combo Breakout - CCS811/BME280
-IC Hook Test Leads
-Air Quality Breakout - CCS811
-Adafruit Ultimate GPS Breakout
-USB 2.0 Cable - A-Male to B-Male
-Raspberry Pi 3
-Amazon Echo
-Android
-Avnet Cellular Shield
-AT&T IoT SIM Card
-DFRobot Gravity: Laser PM2.5 Air Quality Sensor for Arduino
-Waveshare Dust Sensor Detector
-DFRobot Gravity: Laser PM2.5 Air Quality Sensor for Arduino
-Honeywell HPMA115S0-XXX -  Gas Detection Sensor, PM2.5, Laser Scattering, Air,
-```
+- IC Hook with Pigtail
+- Arduino Uno - R3 SMD
+- Environmental Combo Breakout - CCS811/BME280
+- IC Hook Test Leads
+- Air Quality Breakout - CCS811
+- Adafruit Ultimate GPS Breakout
+- USB 2.0 Cable - A-Male to B-Male
+- Raspberry Pi 3
+- Amazon Echo
+- Android
+- Avnet Cellular Shield
+- AT&T IoT SIM Card
+- DFRobot Gravity: Laser PM2.5 Air Quality Sensor for Arduino
+- Waveshare Dust Sensor Detector
+- DFRobot Gravity: Laser PM2.5 Air Quality Sensor for Arduino
+- Honeywell HPMA115S0-XXX -  Gas Detection Sensor, PM2.5, Laser Scattering, Air,
 
 ## 2.REMOTE FUEL MONITORING
 
@@ -166,24 +179,23 @@ For diesel generators, fuel tanks, trucks and heavy machinery, the remote
 fuel monitoring solution is a more accurate way to prevent losses, improve
 operations cost and efficiency.
 
-```
-IC Hook with Pigtail
-Arduino Uno - R3 SMD
-Sparkfun Environmental Combo Breakout - CCS811/BME280
-IC Hook Test Leads
-Air Quality Breakout - CCS811
-Adafruit Ultimate GPS Breakout
-USB 2.0 Cable - A-Male to B-Male
-Raspberry Pi 3
-Amazon Echo
-Avnet Cellular Shield
-AT&T IoT SIM Card
-Sierra Tools Battery-Operated Liquid Transfer Pump
-Gas Can
-Water Container
-Ultrasonic Distance Sensor Module HC-SR04
-DHT11 Digital Humidity Temperature Sensor
-```
+- IC Hook with Pigtail
+- Arduino Uno - R3 SMD
+- Sparkfun Environmental Combo Breakout - CCS811/BME280
+- IC Hook Test Leads
+- Air Quality Breakout - CCS811
+- Adafruit Ultimate GPS Breakout
+- USB 2.0 Cable - A-Male to B-Male
+- Raspberry Pi 3
+- Amazon Echo
+- Avnet Cellular Shield
+- AT&T IoT SIM Card
+- Sierra Tools Battery-Operated Liquid Transfer Pump
+- Gas Can
+- Water Container
+- Ultrasonic Distance Sensor Module HC-SR04
+- DHT11 Digital Humidity Temperature Sensor
+
 
 ## 3.FLEET MONITORING SOLUTIONS / TRUCKING IoT
 
@@ -279,22 +291,16 @@ Amazon EC2
 
 Hardware components used:
 
-```
+- Raspberry Pi 3
+- NooElec NESDR Mini 2+ 0.5PPM TCXO RTL-SDR & ADS-B USB Receiver - Software Defined Radio.
+- iPhone
+- iPad
 
-Raspberry Pi 3
-NooElec NESDR Mini 2+ 0.5PPM TCXO RTL-SDR & ADS-B USB Receiver - Software Defined Radio.
-iPhone
-iPad
-
-```
 
 Software and Cloud Services used:
 
-```
-AWS IoT
-iOS
-AWS Lambda
-Amazon Kinesis
-Weather APIs
-
-```
+- AWS IoT
+- iOS
+- AWS Lambda
+- Amazon Kinesis
+- Weather APIs
