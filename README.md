@@ -214,6 +214,17 @@ There are more details about the setup for Kinesis and Quicksight in this [simil
 |S3 prefix              | aggregate-humidity/
 
 
+### Set up AWS IoT to receive and forward incoming data
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT_to_Kinesis_Data_Firehose
+|Attribute              | *
+|Topic Filter           | /homesecure/devicedata
+|Condition              | [none – leave blank]
+|Add Action             | Send messages to an Amazon Kinesis Firehose stream (select IoT-Source-Stream from the Stream name dropdown)
+|Select Separator       | "\n (newline)"
+
 
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
 
