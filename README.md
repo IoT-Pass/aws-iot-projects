@@ -181,7 +181,7 @@ Delivery stream 1:
 |Field                  | Value
 |:---                   |:---
 |Name                   | IoT-Source-Stream
-|S3 bucket              | *<your unique name>-kinesis
+|S3 bucket              | '<your unique name>'-kinesis
 |S3 prefix              | source/
 
 |Field                  | Value
