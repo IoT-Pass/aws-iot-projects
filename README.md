@@ -77,7 +77,12 @@ We need a Raspberry Pi and Arduino UNO as well as sensors. The devices can be pl
 
 ![image alt text](/images/arduino_uno_sensors_0.png)
 
+Sensor data is acquired using an Arduino UNO. From there, data is packaged and sent to a Raspberry Pi via a serial connection, external to the enclosure. The Raspberry Pi acts as the connection gateway and publishes the packaged data to AWS IoT. For immediate purposes data flow is unidirectional, meaning the unit is not subscribing to any outside streams, though this could easily be integrated.
+
 ![image alt text](/images/rpi_wt_camera_0.png)
+
+
+
 
 ### JSON PAYLOAD FROM DEVICE TO AWS CLOUD
 
