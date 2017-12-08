@@ -15,6 +15,8 @@ Reading and hearing about the home security stories of others in the neighborhoo
 
 It is very essential to protect one's home against fire, intruders, flood or water leak, and so on. It will bring about self defense and peace of mind and if not prevent or minimize the damage.
 
+For an indepth look at the different components, in the directory for the sub-project, Sub-directory](https://github.com/mmaro/aws-iot-projects/tree/master/smartHomeSecurityAndAutomation) of this project.
+
 
 ### Hardware components used:
 
@@ -230,16 +232,14 @@ Add private key, private certificate and root certificate to the same path as th
 
 ## How it Works
 
-Developing ...
-
 For an indepth look at the different components, check out the [Fleet Monitoring or Trucking IoT Wiki](#prerequisites).  For any questions or requests for more documentation, feel free to open an issue or fork this repo and contribute!
 
 ## 3.2 FOOD MATRIX - TRACING THE FOOD BACK TO THE SOURCE
 
 Food matrix is an IoT Blockchain solution for food safety and audit, cold chain and food logistics. It leverages the hyperledger open source and free blockchain combined with AWS IoT.
 
-Where is my food from?
-Is it safe?
+- Where is my food from?
+- Is it safe?
 
 ### FoodMatrix in Food Production and Supply Chain
 
@@ -251,20 +251,15 @@ In the directory for the sub-project, navigate the [Fleet Monitoring or Trucking
 node edgeclient.js
 ```
 
-Hardware components used:
+### Hardware components used:
 
-```
-Raspberry Pi 3
+- Raspberry Pi 3
 
-```
+### Software and Cloud Services used:
 
-Software and Cloud Services used:
+- AWS IoT
+- Amazon EC2
 
-```
-AWS IoT
-Amazon EC2
-
-```
 
 ## 3.3 Lowering Vehicle Insurance Premium Using ARITY Driving Behavior SDK AND AWS IoT
 
@@ -289,7 +284,7 @@ Amazon EC2
 ![image alt text](/images/rpi_sdr_nooelec.png)
 
 
-Hardware components used:
+### Hardware components used:
 
 - Raspberry Pi 3
 - NooElec NESDR Mini 2+ 0.5PPM TCXO RTL-SDR & ADS-B USB Receiver - Software Defined Radio.
@@ -297,7 +292,7 @@ Hardware components used:
 - iPad
 
 
-Software and Cloud Services used:
+### Software and Cloud Services used:
 
 - AWS IoT
 - iOS
