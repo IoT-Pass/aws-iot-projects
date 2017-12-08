@@ -73,13 +73,11 @@ For an indepth look at the different components, in the directory for the sub-pr
 
 ### System Overview
 
-We need a Raspberry Pi and Arduino UNO as well as sensors.
+We need a Raspberry Pi and Arduino UNO as well as sensors. The devices can be placed anywhere in the home to measure. Data collected from the HomeSecure monitor is sent via directly to AWS IoT, where the data can be displayed and analyzed using Amazon Kinesis and other Amazon web services.
 
+![image alt text](/images/arduino_uno_sensors_0.png)
 
-
-![image alt text](/images/arduino_uno_sensors.png)
-
-![image alt text](/images/rpi_wt_camera.png)
+![image alt text](/images/rpi_wt_camera_0.png)
 
 ### JSON PAYLOAD FROM DEVICE TO AWS CLOUD
 
