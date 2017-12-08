@@ -41,6 +41,7 @@ It is very essential to protect one's home against fire, intruders, flood or wat
 - Adafruit Bluefruit LE UART Friend - Bluetooth Low Energy (BLE)
 - Raspberry Pi 3
 - Gas Sensor
+- Raspberry Pi Camera Module Mount
 
 
 ### Software and Cloud Services used:
@@ -162,16 +163,16 @@ In the absence of a physical device, sample data can be also generated from the 
 
 ### Use Case, Business Imperative, and Amazon Kinesis Firehose delivery streams
 
-An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak be wet or dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
+An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak be dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
 
 - Temperature greater than 38°C (100°F).
-- Temperature below than 10°C (50°F).
+- Temperature below 10°C (50°F).
 - An RH less than 33.
 - Water leak becomes wet.
 
 Alarms (rules) are activated for conditions that are outside the ideal ranges.
 
-There are more details about the setup in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
+There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
 
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
