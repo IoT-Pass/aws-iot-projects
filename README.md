@@ -179,7 +179,7 @@ There are more details about the setup for Kinesis and Quicksight in this [simil
 ### Create four Firehose delivery streams
 
 1. Open the **Kinesis Firehose** console at https://console.aws.amazon.com/firehose/
-2. Create all four Firehose delivery streams by choosing the **Create Delivery Stream** button.
+2. Create all four Firehose delivery streams by choosing the **Create Delivery Stream** button. Follow the steps in the wizard and choose the default settings except for the **buffer interval**. Change the **buffer interval** to 300 seconds i.e. 5 minute-window for trend analysis. Use the fields and values in the tables below.
 
 **Delivery stream 1:**
 
