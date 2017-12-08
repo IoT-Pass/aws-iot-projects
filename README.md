@@ -178,6 +178,8 @@ There are more details about the setup for Kinesis and Quicksight in this [simil
 
 ### Create four Firehose delivery streams
 
+1. Open the **Kinesis Firehose** console at https://console.aws.amazon.com/firehose/
+2. Create all four Firehose delivery streams by choosing the **Create Delivery Stream** button.
 
 **Delivery stream 1:**
 
