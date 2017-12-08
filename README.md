@@ -15,9 +15,6 @@ Reading and hearing about the home security stories of others in the neighborhoo
 
 It is very essential to protect one's home against fire, intruders, flood or water leak, and so on. It will bring about self defense and peace of mind and if not prevent or minimize the damage.
 
-For an indepth look at the different components, in the directory for the sub-project, navigate the [smartHome Security and Automation Sub-directory](https://github.com/mmaro/aws-iot-projects/tree/master/smartHomeSecurityAndAutomation) of this project.
-
-
 ### Hardware components used:
 
 
@@ -82,7 +79,7 @@ Sensor data is acquired using an Arduino UNO. From there, data is packaged and s
 ![image alt text](/images/rpi_wt_camera_0.png)
 
 
-
+For an indepth look at the different components, in the directory for the sub-project, navigate the [smartHome Security and Automation Sub-directory](https://github.com/mmaro/aws-iot-projects/tree/master/smartHomeSecurityAndAutomation) of this project.
 
 ### JSON PAYLOAD FROM DEVICE TO AWS CLOUD
 
@@ -153,7 +150,15 @@ Altitude: 219.70
 Satellites: 8
 ```
 
-### Use Case and Business Imperative, and Amazon Kinesis Firehose delivery streams
+Running the HomeSecureApp.py Python script while connected to the Arduino UNO will publish real live messages to the AWS IoT platform from the devices. The IoT rule sends the message to Firehose for further processing.
+
+The script requires access to AWS CLI credentials and boto3 installation on the machine running the script. Download and run the following Python script after setting up the data collection and data transmission systems of HomeSecure:
+
+https://github.com/mmaro/aws-iot-projects/blob/master/smartHomeSecurityAndAutomation/smartHomeSecurity/sense_your_home/rpi/HomeSecureApp.py
+
+In the absence of a physical device, sample data can be also generated from the JSON payload for experimenting with IoT, Streams and Visualization.
+
+### Use Case, Business Imperative, and Amazon Kinesis Firehose delivery streams
 
 An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak be wet or dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
 
@@ -162,7 +167,7 @@ An insurer or user would like to see and analyze a trend of 5 minutes worth of d
 - An RH less than 33.
 - Water leak becomes wet.
 
-Alarms are activated for conditions that are outside the ideal ranges.
+Alarms (rules) are activated for conditions that are outside the ideal ranges.
 
 
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
