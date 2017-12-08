@@ -175,6 +175,31 @@ Alarms (rules) are activated for conditions that are outside the ideal ranges as
 
 There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
+Delivery stream 1:
+
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Source-Stream
+|S3 bucket              | <your unique name>-kinesis
+|S3 prefix              | source/
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Source-Stream
+|S3 bucket              | <your unique name>-kinesis
+|S3 prefix              | source/
+
+|File                   | Description
+|:---                   |:---
+|lib/libmkldnn.so       | Intel MKL-DNN dynamic library
+|lib/libiomp5.so        | Intel OpenMP* runtime library
+|lib/libmklml_gnu.so    | Intel MKL small library for GNU* OpenMP runtime
+|lib/libmklml_intel.so  | Intel MKL small library for Intel(R) OpenMP runtime
+|include/mkldnn.h       | C header
+|include/mkldnn.hpp     | C++ header
+|include/mkldnn_types.h | auxillary C header
+
 
 ## OTHER AWS IoT/ AMAZON KINESIS PROJECTS I AM WORKING ON
 
