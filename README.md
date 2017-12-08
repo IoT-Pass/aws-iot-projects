@@ -15,7 +15,7 @@ Reading and hearing about the home security stories of others in the neighborhoo
 
 It is very essential to protect one's home against fire, intruders, flood or water leak, and so on. It will bring about self defense and peace of mind and if not prevent or minimize the damage.
 
-For an indepth look at the different components, in the directory for the sub-project, Sub-directory](https://github.com/mmaro/aws-iot-projects/tree/master/smartHomeSecurityAndAutomation) of this project.
+For an indepth look at the different components, in the directory for the sub-project, navigate the [smartHome Security and Automation Sub-directory](https://github.com/mmaro/aws-iot-projects/tree/master/smartHomeSecurityAndAutomation) of this project.
 
 
 ### Hardware components used:
