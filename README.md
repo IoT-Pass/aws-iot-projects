@@ -175,8 +175,11 @@ Alarms (rules) are activated for conditions that are outside the ideal ranges as
 
 There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
-**_Delivery stream 1:_**
 
+### Create four Firehose delivery streams
+
+
+**Delivery stream 1:**
 
 |Field                  | Value
 |:---                   |:---
@@ -184,12 +187,29 @@ There are more details about the setup for Kinesis and Quicksight in this [simil
 |S3 bucket              | [your unique name here]-kinesis
 |S3 prefix              | source/
 
+**Delivery stream 2:**
+
 |Field                  | Value
 |:---                   |:---
-|Name                   | IoT-Source-Stream
-|S3 bucket              | <your unique name>-kinesis
-|S3 prefix              | source/
+|Name                   | IoT-Destination-Data-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | data/
 
+**Delivery stream 3:**
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Destination-Aggregate-Temp-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | aggregate-temp/
+
+**Delivery stream 4:**
+
+|Field                  | Value
+|:---                   |:---
+|Name                   | IoT-Destination-Aggregate-Humidity-Stream
+|S3 bucket              | [your unique name here]-kinesis
+|S3 prefix              | aggregate-humidity/
 
 
 
