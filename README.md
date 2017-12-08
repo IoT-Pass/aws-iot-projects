@@ -175,7 +175,7 @@ Alarms (rules) are activated for conditions that are outside the ideal ranges as
 
 There are more details about the setup for Kinesis and Quicksight in this [similar project](https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/) : Build a Visualization and Monitoring Dashboard for IoT Data with Amazon Kinesis Analytics and Amazon QuickSight.
 
-_**Delivery stream 1:**_
+**_Delivery stream 1:_**
 
 
 |Field                  | Value
