@@ -214,12 +214,15 @@ There are more details about the setup for Kinesis and Quicksight in this [simil
 |S3 prefix              | aggregate-humidity/
 
 
+
 ### Set up AWS IoT to receive and forward incoming data
 
 1. Sign in to the **AWS Management Console** and open the **AWS IoT console**.
 2. In the **AWS IoT console**, choose **Rules** in the left navigation pane.
 3. On the **Rules page**, choose **Create**.
 4. On the **Create a rule page**, in the **Name field**, type a name for your rule. In the **Description** field, type a description for the rule.
+
+
 
 |Field                  | Value
 |:---                   |:---
