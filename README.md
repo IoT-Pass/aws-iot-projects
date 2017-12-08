@@ -150,6 +150,8 @@ Altitude: 219.70
 Satellites: 8
 ```
 
+### AWS IoT Data source
+
 Running the HomeSecureApp.py Python script while connected to the Arduino UNO will publish real live messages to the AWS IoT platform from the devices. The IoT rule sends the message to Firehose for further processing.
 
 The script requires access to AWS CLI credentials and boto3 installation on the machine running the script. Download and run the following Python script after setting up the data collection and data transmission systems of HomeSecure:
