@@ -153,7 +153,7 @@ Altitude: 219.70
 Satellites: 8
 ```
 
-### Use Case and Business Imperative, and Firehose delivery streams
+### Use Case and Business Imperative, and Amazon Kinesis Firehose delivery streams
 
 An insurer or user would like to see and analyze a trend of 5 minutes worth of data. The use case requires that water leak be wet or dry. The ideal thresholds for temperature ranges from a minimum of 10 to a maximum of 38 degree celsius. The ideal condition for relative humidity is any value above the minimum of 33. When conditions are outside ideal ranges, several issues arise:
 
